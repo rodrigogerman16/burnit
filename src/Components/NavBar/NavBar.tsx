@@ -4,7 +4,7 @@ const NavBar = () => {
 <nav className="px-4 sm:px-4 py-2.5 w-full top-0 left-0">
   <div className="container flex flex-wrap items-center justify-between mx-auto">
   <a href="#" className="flex items-center">
-      <img src="../../../public/icon.png" className="h-12 mr-3 sm:h-9" alt="Burnit Logo"/>
+      <img src="./icon.png" className="h-12 mr-3 sm:h-9" alt="Burnit Logo"/>
       <span className="self-center text-xl font-semibold whitespace-nowrap text-white">Burnit</span>
   </a>
   <div className="flex md:order-2">
