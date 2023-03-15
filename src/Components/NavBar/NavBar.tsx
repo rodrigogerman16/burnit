@@ -3,12 +3,12 @@ const NavBar = () => {
     
 <nav className="px-4 sm:px-4 py-2.5 w-full top-0 left-0">
   <div className="container flex flex-wrap items-center justify-between mx-auto">
-  <a href="https://flowbite.com/" className="flex items-center">
-      <img src="https://flowbite.com/docs/images/logo.svg" className="h-6 mr-3 sm:h-9" alt="Flowbite Logo"/>
+  <a href="#" className="flex items-center">
+      <img src="../../../public/icon.png" className="h-12 mr-3 sm:h-9" alt="Burnit Logo"/>
       <span className="self-center text-xl font-semibold whitespace-nowrap text-white">Burnit</span>
   </a>
   <div className="flex md:order-2">
-      <button type="button" className="text-white bg-lime-700 hover:bg-lime-800 focus:ring-4 focus:outline-none focus:ring-lime-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0">Join</button>
+      <button type="button" className="text-gray-700 bg-lime-400 hover:bg-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0">Join</button>
       <button data-collapse-toggle="navbar-sticky" type="button" className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
         <span className="sr-only">Open main menu</span>
         <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
